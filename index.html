@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DummyHub</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#/">DummyHub</a>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a class="nav-link" href="#/" data-route="dashboard">Dashboard</a>
+      <a class="nav-link" href="#/shop" data-route="shop">Shop</a>
+      <a class="nav-link" href="#/recipes" data-route="recipes">Recipes</a>
+      <a class="nav-link" href="#/community" data-route="community">Community</a>
+      <a class="nav-link" href="#/people" data-route="people">People</a>
+      <a class="nav-link" href="#/tasks" data-route="tasks">Tasks</a>
+      <a class="nav-link" href="#/cart" data-route="cart">Cart <span id="cart-badge" class="badge is-empty">0</span></a>
+    </nav>
+    <div id="user-area" class="user-area"></div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <p>DummyHub &mdash; a course project using the DummyJSON API</p>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
